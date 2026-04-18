@@ -138,14 +138,9 @@ header .container {
 }
 
 .logo img {
-    height: 130px; /* Aumentado de 50px para 60px */
+    height: 130px;
     width: auto;
     transition: all 0.3s ease;
-    filter: brightness(1.1) contrast(1.2); /* Melhorar contraste e brilho */
-    background: #ffffffe6; /* Fundo sutil para destacar */
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 .logo img:hover {
@@ -155,8 +150,7 @@ header .container {
 }
 
 header.scrolled .logo img {
-    height: 50px; /* Aumentado de 40px para 50px */
-    filter: brightness(1.15) contrast(1.25);
+    height: 50px;
 }
 
 .footer-logo img {
